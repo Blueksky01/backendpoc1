@@ -1,0 +1,702 @@
+[
+  {
+    "id": "EMP-31433",
+    "name": "สมชาย ศรีเจริญ",
+    "email": "somchai.sri18@example.com",
+    "department": "Engineering",
+    "status": "Active",
+    "address": {
+      "street": "36/22 ถนนสุขุมวิท",
+      "subdistrict": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10110"
+    }
+  },
+  {
+    "id": "EMP-29233",
+    "name": "สมศักดิ์ เจริญผล",
+    "email": "somsak.cha59@example.com",
+    "department": "Human Resources",
+    "status": "Active",
+    "address": {
+      "street": "127/15 ถนนพหลโยธิน",
+      "subdistrict": "จตุจักร",
+      "district": "จตุจักร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10900"
+    }
+  },
+  {
+    "id": "EMP-99002",
+    "name": "วิภาดา แสงสว่าง",
+    "email": "wiphada.sae59@example.com",
+    "department": "Finance",
+    "status": "Active",
+    "address": {
+      "street": "38/49 ถนนสาทรใต้",
+      "subdistrict": "ทุ่งมหาเมฆ",
+      "district": "สาทร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10120"
+    }
+  },
+  {
+    "id": "EMP-68513",
+    "name": "ธนกร พัฒนาการ",
+    "email": "thanakorn.pat13@example.com",
+    "department": "Marketing",
+    "status": "Active",
+    "address": {
+      "street": "370/26 ถนนพหลโยธิน",
+      "subdistrict": "สามเสนใน",
+      "district": "พญาไท",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10400"
+    }
+  },
+  {
+    "id": "EMP-31333",
+    "name": "กานดา ชัยชนะ",
+    "email": "kanda.cha95@example.com",
+    "department": "Sales",
+    "status": "Active",
+    "address": {
+      "street": "268/24 ถนนรัตนาธิเบศร์",
+      "subdistrict": "บางกระสอ",
+      "district": "เมืองนนทบุรี",
+      "province": "นนทบุรี",
+      "postalCode": "11000"
+    }
+  },
+  {
+    "id": "EMP-46866",
+    "name": "ณัฐพล รักษาสัตย์",
+    "email": "nattapol.rak31@example.com",
+    "department": "Customer Support",
+    "status": "Inactive",
+    "address": {
+      "street": "54/44 ถนนกาญจนาภิเษก",
+      "subdistrict": "เสาธงหิน",
+      "district": "บางใหญ่",
+      "province": "นนทบุรี",
+      "postalCode": "11140"
+    }
+  },
+  {
+    "id": "EMP-36722",
+    "name": "ชลธิชา ชัยมงคล",
+    "email": "chonthicha.cha41@example.com",
+    "department": "IT Support",
+    "status": "Active",
+    "address": {
+      "street": "224/5 ถนนแจ้งวัฒนะ",
+      "subdistrict": "ปากเกร็ด",
+      "district": "ปากเกร็ด",
+      "province": "นนทบุรี",
+      "postalCode": "11120"
+    }
+  },
+  {
+    "id": "EMP-59277",
+    "name": "เอกราช คงเจริญ",
+    "email": "ekkarat.kon52@example.com",
+    "department": "Product",
+    "status": "Probation",
+    "address": {
+      "street": "273/8 ถนนบางนา-ตราด",
+      "subdistrict": "บางแก้ว",
+      "district": "บางพลี",
+      "province": "สมุทรปราการ",
+      "postalCode": "10540"
+    }
+  },
+  {
+    "id": "EMP-64530",
+    "name": "อรทัย ยอดแก้ว",
+    "email": "orathai.yod18@example.com",
+    "department": "Design",
+    "status": "On Leave",
+    "address": {
+      "street": "142/36 ถนนนิมมานเหมินท์",
+      "subdistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  {
+    "id": "EMP-30556",
+    "name": "ปิยะพงษ์ ทรัพย์อนันต์",
+    "email": "piyapong.sub97@example.com",
+    "department": "Operations",
+    "status": "Active",
+    "address": {
+      "street": "386/41 ถนนราษฎร์อุทิศ 200 ปี",
+      "subdistrict": "ป่าตอง",
+      "district": "กะทู้",
+      "province": "ภูเก็ต",
+      "postalCode": "83150"
+    }
+  },
+  {
+    "id": "EMP-40978",
+    "name": "สุพรรษา วงศ์ษา",
+    "email": "supansa.won73@example.com",
+    "department": "Engineering",
+    "status": "Probation",
+    "address": {
+      "street": "222/37 ถนนสุขุมวิท",
+      "subdistrict": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10110"
+    }
+  },
+  {
+    "id": "EMP-25983",
+    "name": "กิตติศักดิ์ บุญประเสริฐ",
+    "email": "kittisak.boo25@example.com",
+    "department": "Human Resources",
+    "status": "On Leave",
+    "address": {
+      "street": "38/27 ถนนพหลโยธิน",
+      "subdistrict": "จตุจักร",
+      "district": "จตุจักร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10900"
+    }
+  },
+  {
+    "id": "EMP-58955",
+    "name": "พรทิพย์ อนันตชัย",
+    "email": "pornthip.ana19@example.com",
+    "department": "Finance",
+    "status": "Active",
+    "address": {
+      "street": "16/1 ถนนสาทรใต้",
+      "subdistrict": "ทุ่งมหาเมฆ",
+      "district": "สาทร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10120"
+    }
+  },
+  {
+    "id": "EMP-97737",
+    "name": "วรวุฒิ รุ่งเรือง",
+    "email": "worawut.run62@example.com",
+    "department": "Marketing",
+    "status": "Active",
+    "address": {
+      "street": "376/50 ถนนพหลโยธิน",
+      "subdistrict": "สามเสนใน",
+      "district": "พญาไท",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10400"
+    }
+  },
+  {
+    "id": "EMP-11454",
+    "name": "นภัสสร งามขำ",
+    "email": "napassorn.nga59@example.com",
+    "department": "Sales",
+    "status": "Active",
+    "address": {
+      "street": "200/15 ถนนรัตนาธิเบศร์",
+      "subdistrict": "บางกระสอ",
+      "district": "เมืองนนทบุรี",
+      "province": "นนทบุรี",
+      "postalCode": "11000"
+    }
+  },
+  {
+    "id": "EMP-36320",
+    "name": "จิรายุ พิมพ์พิศ",
+    "email": "jirayu.pim43@example.com",
+    "department": "Customer Support",
+    "status": "Probation",
+    "address": {
+      "street": "392/39 ถนนกาญจนาภิเษก",
+      "subdistrict": "เสาธงหิน",
+      "district": "บางใหญ่",
+      "province": "นนทบุรี",
+      "postalCode": "11140"
+    }
+  },
+  {
+    "id": "EMP-22590",
+    "name": "ศิริพร ประสิทธิ์ผล",
+    "email": "siriporn.pra83@example.com",
+    "department": "IT Support",
+    "status": "On Leave",
+    "address": {
+      "street": "105/43 ถนนแจ้งวัฒนะ",
+      "subdistrict": "ปากเกร็ด",
+      "district": "ปากเกร็ด",
+      "province": "นนทบุรี",
+      "postalCode": "11120"
+    }
+  },
+  {
+    "id": "EMP-93599",
+    "name": "พิชญุตม์ เกียรติขจร",
+    "email": "pitchayut.kia63@example.com",
+    "department": "Product",
+    "status": "Active",
+    "address": {
+      "street": "280/18 ถนนบางนา-ตราด",
+      "subdistrict": "บางแก้ว",
+      "district": "บางพลี",
+      "province": "สมุทรปราการ",
+      "postalCode": "10540"
+    }
+  },
+  {
+    "id": "EMP-37171",
+    "name": "อารียา วงษ์สวัสดิ์",
+    "email": "areeya.won63@example.com",
+    "department": "Design",
+    "status": "Active",
+    "address": {
+      "street": "5/6 ถนนนิมมานเหมินท์",
+      "subdistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  {
+    "id": "EMP-97288",
+    "name": "ภาณุพงศ์ วิเศษสมบูรณ์",
+    "email": "panupong.wis77@example.com",
+    "department": "Operations",
+    "status": "Active",
+    "address": {
+      "street": "142/30 ถนนราษฎร์อุทิศ 200 ปี",
+      "subdistrict": "ป่าตอง",
+      "district": "กะทู้",
+      "province": "ภูเก็ต",
+      "postalCode": "83150"
+    }
+  },
+  {
+    "id": "EMP-51437",
+    "name": "ปรียานุช แซ่โค้ว",
+    "email": "preeyanuch.sae18@example.com",
+    "department": "Engineering",
+    "status": "Inactive",
+    "address": {
+      "street": "65/41 ถนนสุขุมวิท",
+      "subdistrict": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10110"
+    }
+  },
+  {
+    "id": "EMP-82555",
+    "name": "ธีรภัทร ใจดี",
+    "email": "teerapat.jai34@example.com",
+    "department": "Human Resources",
+    "status": "Active",
+    "address": {
+      "street": "165/25 ถนนพหลโยธิน",
+      "subdistrict": "จตุจักร",
+      "district": "จตุจักร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10900"
+    }
+  },
+  {
+    "id": "EMP-79248",
+    "name": "เกศริน มหานคร",
+    "email": "kesarin.mah75@example.com",
+    "department": "Finance",
+    "status": "On Leave",
+    "address": {
+      "street": "59/6 ถนนสาทรใต้",
+      "subdistrict": "ทุ่งมหาเมฆ",
+      "district": "สาทร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10120"
+    }
+  },
+  {
+    "id": "EMP-80286",
+    "name": "อนุชา มั่นคง",
+    "email": "anucha.man45@example.com",
+    "department": "Marketing",
+    "status": "Inactive",
+    "address": {
+      "street": "150/26 ถนนพหลโยธิน",
+      "subdistrict": "สามเสนใน",
+      "district": "พญาไท",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10400"
+    }
+  },
+  {
+    "id": "EMP-17858",
+    "name": "พิมลวรรณ บริบูรณ์",
+    "email": "pimonwan.bor23@example.com",
+    "department": "Sales",
+    "status": "On Leave",
+    "address": {
+      "street": "328/32 ถนนรัตนาธิเบศร์",
+      "subdistrict": "บางกระสอ",
+      "district": "เมืองนนทบุรี",
+      "province": "นนทบุรี",
+      "postalCode": "11000"
+    }
+  },
+  {
+    "id": "EMP-45748",
+    "name": "ชวลิต สุขสำราญ",
+    "email": "chavalit.suk42@example.com",
+    "department": "Customer Support",
+    "status": "Probation",
+    "address": {
+      "street": "332/5 ถนนกาญจนาภิเษก",
+      "subdistrict": "เสาธงหิน",
+      "district": "บางใหญ่",
+      "province": "นนทบุรี",
+      "postalCode": "11140"
+    }
+  },
+  {
+    "id": "EMP-18296",
+    "name": "วรรณภา พิทักษ์ธรรม",
+    "email": "wannapha.pit63@example.com",
+    "department": "IT Support",
+    "status": "Active",
+    "address": {
+      "street": "22/8 ถนนแจ้งวัฒนะ",
+      "subdistrict": "ปากเกร็ด",
+      "district": "ปากเกร็ด",
+      "province": "นนทบุรี",
+      "postalCode": "11120"
+    }
+  },
+  {
+    "id": "EMP-47886",
+    "name": "กฤษฎา แซ่ลิ้ม",
+    "email": "kritsada.sae45@example.com",
+    "department": "Product",
+    "status": "Active",
+    "address": {
+      "street": "62/5 ถนนบางนา-ตราด",
+      "subdistrict": "บางแก้ว",
+      "district": "บางพลี",
+      "province": "สมุทรปราการ",
+      "postalCode": "10540"
+    }
+  },
+  {
+    "id": "EMP-42636",
+    "name": "กัญญารัตน์ ภักดีโชติ",
+    "email": "kanyarat.bha73@example.com",
+    "department": "Design",
+    "status": "Inactive",
+    "address": {
+      "street": "91/8 ถนนนิมมานเหมินท์",
+      "subdistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  {
+    "id": "EMP-18912",
+    "name": "รังสรรค์ คงประเสริฐ",
+    "email": "rangsan.kon33@example.com",
+    "department": "Operations",
+    "status": "Active",
+    "address": {
+      "street": "291/8 ถนนราษฎร์อุทิศ 200 ปี",
+      "subdistrict": "ป่าตอง",
+      "district": "กะทู้",
+      "province": "ภูเก็ต",
+      "postalCode": "83150"
+    }
+  },
+  {
+    "id": "EMP-49424",
+    "name": "รัตนาภรณ์ ทองหล่อ",
+    "email": "rattanaporn.tho28@example.com",
+    "department": "Engineering",
+    "status": "On Leave",
+    "address": {
+      "street": "322/16 ถนนสุขุมวิท",
+      "subdistrict": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10110"
+    }
+  },
+  {
+    "id": "EMP-39351",
+    "name": "พงศกร วิจิตรศิลป์",
+    "email": "pongsakorn.vij53@example.com",
+    "department": "Human Resources",
+    "status": "Active",
+    "address": {
+      "street": "330/20 ถนนพหลโยธิน",
+      "subdistrict": "จตุจักร",
+      "district": "จตุจักร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10900"
+    }
+  },
+  {
+    "id": "EMP-71475",
+    "name": "มัทนา สิริวัฒน์",
+    "email": "mattana.sir56@example.com",
+    "department": "Finance",
+    "status": "Active",
+    "address": {
+      "street": "277/14 ถนนสาทรใต้",
+      "subdistrict": "ทุ่งมหาเมฆ",
+      "district": "สาทร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10120"
+    }
+  },
+  {
+    "id": "EMP-95798",
+    "name": "ชาญชัย ศิริพัฒน์",
+    "email": "charnchai.sir52@example.com",
+    "department": "Marketing",
+    "status": "On Leave",
+    "address": {
+      "street": "199/26 ถนนพหลโยธิน",
+      "subdistrict": "สามเสนใน",
+      "district": "พญาไท",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10400"
+    }
+  },
+  {
+    "id": "EMP-29691",
+    "name": "ทิพวรรณ แซ่ตั้ง",
+    "email": "thippawan.sae95@example.com",
+    "department": "Sales",
+    "status": "Active",
+    "address": {
+      "street": "246/21 ถนนรัตนาธิเบศร์",
+      "subdistrict": "บางกระสอ",
+      "district": "เมืองนนทบุรี",
+      "province": "นนทบุรี",
+      "postalCode": "11000"
+    }
+  },
+  {
+    "id": "EMP-76709",
+    "name": "อภิสิทธิ์ อัครเดชากุล",
+    "email": "aphisit.akk47@example.com",
+    "department": "Customer Support",
+    "status": "Active",
+    "address": {
+      "street": "217/2 ถนนกาญจนาภิเษก",
+      "subdistrict": "เสาธงหิน",
+      "district": "บางใหญ่",
+      "province": "นนทบุรี",
+      "postalCode": "11140"
+    }
+  },
+  {
+    "id": "EMP-17402",
+    "name": "เบญจมาศ พงษ์สิทธิ์",
+    "email": "benjamas.pon15@example.com",
+    "department": "IT Support",
+    "status": "Probation",
+    "address": {
+      "street": "222/20 ถนนแจ้งวัฒนะ",
+      "subdistrict": "ปากเกร็ด",
+      "district": "ปากเกร็ด",
+      "province": "นนทบุรี",
+      "postalCode": "11120"
+    }
+  },
+  {
+    "id": "EMP-14872",
+    "name": "สุรชัย รัตนกุล",
+    "email": "surachai.rat13@example.com",
+    "department": "Product",
+    "status": "Active",
+    "address": {
+      "street": "267/35 ถนนบางนา-ตราด",
+      "subdistrict": "บางแก้ว",
+      "district": "บางพลี",
+      "province": "สมุทรปราการ",
+      "postalCode": "10540"
+    }
+  },
+  {
+    "id": "EMP-91885",
+    "name": "พิมพ์ชนก วงศ์คำ",
+    "email": "pimchanok.won98@example.com",
+    "department": "Design",
+    "status": "Active",
+    "address": {
+      "street": "301/26 ถนนนิมมานเหมินท์",
+      "subdistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  {
+    "id": "EMP-83914",
+    "name": "ยุทธนา จิตรประภัสสร",
+    "email": "yutthana.jit79@example.com",
+    "department": "Operations",
+    "status": "Probation",
+    "address": {
+      "street": "370/13 ถนนราษฎร์อุทิศ 200 ปี",
+      "subdistrict": "ป่าตอง",
+      "district": "กะทู้",
+      "province": "ภูเก็ต",
+      "postalCode": "83150"
+    }
+  },
+  {
+    "id": "EMP-36161",
+    "name": "ดาริกา โรจนศิลป์",
+    "email": "darika.roj86@example.com",
+    "department": "Engineering",
+    "status": "Active",
+    "address": {
+      "street": "97/40 ถนนสุขุมวิท",
+      "subdistrict": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10110"
+    }
+  },
+  {
+    "id": "EMP-64063",
+    "name": "ศักดิ์ชัย นวลจันทร์",
+    "email": "sakchai.nua27@example.com",
+    "department": "Human Resources",
+    "status": "Inactive",
+    "address": {
+      "street": "187/9 ถนนพหลโยธิน",
+      "subdistrict": "จตุจักร",
+      "district": "จตุจักร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10900"
+    }
+  },
+  {
+    "id": "EMP-63583",
+    "name": "กมลวรรณ ศรีสมุทร",
+    "email": "kamolwan.sri14@example.com",
+    "department": "Finance",
+    "status": "On Leave",
+    "address": {
+      "street": "53/11 ถนนสาทรใต้",
+      "subdistrict": "ทุ่งมหาเมฆ",
+      "district": "สาทร",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10120"
+    }
+  },
+  {
+    "id": "EMP-82334",
+    "name": "อรรถพล บุญรักษา",
+    "email": "attapol.boo17@example.com",
+    "department": "Marketing",
+    "status": "Inactive",
+    "address": {
+      "street": "262/30 ถนนพหลโยธิน",
+      "subdistrict": "สามเสนใน",
+      "district": "พญาไท",
+      "province": "กรุงเทพมหานคร",
+      "postalCode": "10400"
+    }
+  },
+  {
+    "id": "EMP-97164",
+    "name": "ศศิธร สุขเกษม",
+    "email": "sasithorn.suk89@example.com",
+    "department": "Sales",
+    "status": "Active",
+    "address": {
+      "street": "43/6 ถนนรัตนาธิเบศร์",
+      "subdistrict": "บางกระสอ",
+      "district": "เมืองนนทบุรี",
+      "province": "นนทบุรี",
+      "postalCode": "11000"
+    }
+  },
+  {
+    "id": "EMP-74839",
+    "name": "พีระพงษ์ สุวรรณรัตน์",
+    "email": "peerapong.suw76@example.com",
+    "department": "Customer Support",
+    "status": "On Leave",
+    "address": {
+      "street": "283/10 ถนนกาญจนาภิเษก",
+      "subdistrict": "เสาธงหิน",
+      "district": "บางใหญ่",
+      "province": "นนทบุรี",
+      "postalCode": "11140"
+    }
+  },
+  {
+    "id": "EMP-14687",
+    "name": "ลลิตา มงคลทรัพย์",
+    "email": "lalita.mon21@example.com",
+    "department": "IT Support",
+    "status": "Active",
+    "address": {
+      "street": "238/22 ถนนแจ้งวัฒนะ",
+      "subdistrict": "ปากเกร็ด",
+      "district": "ปากเกร็ด",
+      "province": "นนทบุรี",
+      "postalCode": "11120"
+    }
+  },
+  {
+    "id": "EMP-44974",
+    "name": "นันทวัฒน์ เลิศรัศมี",
+    "email": "nantawat.ler51@example.com",
+    "department": "Product",
+    "status": "On Leave",
+    "address": {
+      "street": "308/18 ถนนบางนา-ตราด",
+      "subdistrict": "บางแก้ว",
+      "district": "บางพลี",
+      "province": "สมุทรปราการ",
+      "postalCode": "10540"
+    }
+  },
+  {
+    "id": "EMP-79211",
+    "name": "ชญานิศ ดวงดี",
+    "email": "chayanis.dua72@example.com",
+    "department": "Design",
+    "status": "Active",
+    "address": {
+      "street": "81/6 ถนนนิมมานเหมินท์",
+      "subdistrict": "สุเทพ",
+      "district": "เมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "postalCode": "50200"
+    }
+  },
+  {
+    "id": "EMP-76668",
+    "name": "ชัยวัฒน์ สุนทรเวช",
+    "email": "chaiwat.sun31@example.com",
+    "department": "Operations",
+    "status": "Active",
+    "address": {
+      "street": "236/34 ถนนราษฎร์อุทิศ 200 ปี",
+      "subdistrict": "ป่าตอง",
+      "district": "กะทู้",
+      "province": "ภูเก็ต",
+      "postalCode": "83150"
+    }
+  }
+]
