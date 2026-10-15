@@ -4,7 +4,9 @@ import {
   Logger,
   NotFoundException,
   OnModuleInit,
+  Optional,
 } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import { CreateEmployeeDto } from './dto/create-employee.dto.js';
@@ -23,8 +25,16 @@ export interface PaginatedResult<T> {
 @Injectable()
 export class EmployeesService implements OnModuleInit {
   private readonly logger = new Logger(EmployeesService.name);
-  private readonly filePath = path.resolve(process.cwd(), 'employees.json');
+  private readonly filePath: string;
   private employees: Employee[] = [];
+
+  constructor(@Optional() private readonly configService?: ConfigService) {
+    const dataFileName =
+      this.configService?.get<string>('EMPLOYEES_DATA_PATH') ||
+      process.env.EMPLOYEES_DATA_PATH ||
+      'employees.json';
+    this.filePath = path.resolve(process.cwd(), dataFileName);
+  }
 
   async onModuleInit(): Promise<void> {
     await this.loadEmployees();
