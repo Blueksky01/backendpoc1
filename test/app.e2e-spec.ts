@@ -162,4 +162,117 @@ describe('App, Employees & Auth (e2e)', () => {
       .get('/auth/profile')
       .expect(401);
   });
+
+  describe('Mobile Endpoints', () => {
+    it('GET /mobile/dashboard should return mobile dashboard metrics', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/mobile/dashboard')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(res.body.data).toHaveProperty('summary');
+      expect(res.body.data.summary.totalEmployees).toBeGreaterThan(0);
+      expect(Array.isArray(res.body.data.departments)).toBe(true);
+      expect(Array.isArray(res.body.data.recentEmployees)).toBe(true);
+    });
+
+    it('GET /api/v1/mobile/dashboard should work via alias route', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/api/v1/mobile/dashboard')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+    });
+
+    it('GET /mobile/filters should return department and status options', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/mobile/filters')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(Array.isArray(res.body.data.departments)).toBe(true);
+      expect(Array.isArray(res.body.data.statuses)).toBe(true);
+      expect(res.body.data.statuses).toContain('Active');
+    });
+
+    it('GET /mobile/employees should return paginated list with mobile card fields', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/mobile/employees?page=1&limit=5')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(res.body.data.length).toBe(5);
+      expect(res.body.data[0]).toHaveProperty('avatarUrl');
+      expect(res.body.data[0]).toHaveProperty('initials');
+      expect(res.body.data[0]).toHaveProperty('shortAddress');
+      expect(res.body.pagination).toMatchObject({
+        page: 1,
+        limit: 5,
+        hasNextPage: true,
+        hasPreviousPage: false,
+        nextPage: 2,
+        previousPage: null,
+      });
+    });
+
+    it('GET /mobile/employees/:id should return mobile detail with action links', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/mobile/employees/EMP-31433')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(res.body.data.id).toBe('EMP-31433');
+      expect(res.body.data).toHaveProperty('fullAddress');
+      expect(res.body.data.actions).toHaveProperty('canEmail', true);
+      expect(res.body.data.actions).toHaveProperty('mailtoUrl');
+      expect(res.body.data.actions).toHaveProperty('mapQuery');
+    });
+
+    it('GET /mobile/search should return quick suggestions', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/mobile/search?q=สมชาย&limit=3')
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(Array.isArray(res.body.data)).toBe(true);
+      expect(res.body.data.length).toBeGreaterThan(0);
+    });
+
+    it('PATCH /mobile/employees/:id/status should update employee status', async () => {
+      const res = await request(app.getHttpServer())
+        .patch('/mobile/employees/EMP-31433/status')
+        .send({ status: 'Inactive' })
+        .expect(200);
+
+      expect(res.body.success).toBe(true);
+      expect(res.body.data.status).toBe('Inactive');
+
+      // Revert back to Active
+      await request(app.getHttpServer())
+        .patch('/mobile/employees/EMP-31433/status')
+        .send({ status: 'Active' })
+        .expect(200);
+    });
+  });
+
+  describe('API Hub & Docs Endpoints', () => {
+    it('GET /docs should return HTML documentation hub', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/docs')
+        .expect(200);
+
+      expect(res.headers['content-type']).toContain('text/html');
+      expect(res.text).toContain('API Hub');
+    });
+
+    it('GET /api/catalog should return complete JSON catalog', async () => {
+      const res = await request(app.getHttpServer())
+        .get('/api/catalog')
+        .expect(200);
+
+      expect(res.body).toHaveProperty('info');
+      expect(res.body.categories).toEqual(['Mobile', 'Employees', 'Auth']);
+      expect(res.body.totalEndpoints).toBeGreaterThan(0);
+    });
+  });
 });
