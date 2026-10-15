@@ -7,22 +7,10 @@ import {
   ValidateNested,
 } from 'class-validator';
 
-export class CreateAddressDto {
+export class AddressDto {
   @IsString()
   @IsOptional()
-  houseNumber?: string;
-
-  @IsString()
-  @IsOptional()
-  villageNo?: string;
-
-  @IsString()
-  @IsOptional()
-  village?: string;
-
-  @IsString()
-  @IsOptional()
-  road?: string;
+  street?: string;
 
   @IsString()
   @IsOptional()
@@ -41,37 +29,29 @@ export class CreateAddressDto {
   postalCode?: string;
 }
 
-export class CreateUserDto {
+export class CreateEmployeeDto {
   @IsString()
-  @IsNotEmpty()
-  firstName!: string;
+  @IsOptional()
+  id?: string;
 
   @IsString()
   @IsNotEmpty()
-  lastName!: string;
-
-  @IsString()
-  @IsNotEmpty()
-  phoneNumber!: string;
-
-  @IsString()
-  @IsNotEmpty()
-  birthDate!: string;
-
-  @IsString()
-  @IsNotEmpty()
-  nickname!: string;
-
-  @IsString()
-  @IsNotEmpty()
-  gender!: string;
+  name!: string;
 
   @IsEmail()
   @IsNotEmpty()
   email!: string;
 
+  @IsString()
+  @IsNotEmpty()
+  department!: string;
+
+  @IsString()
+  @IsNotEmpty()
+  status!: string;
+
   @ValidateNested()
-  @Type(() => CreateAddressDto)
+  @Type(() => AddressDto)
   @IsOptional()
-  address?: CreateAddressDto;
+  address?: AddressDto;
 }
